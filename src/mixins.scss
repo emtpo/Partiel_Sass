@@ -1,3 +1,10 @@
+@mixin h1{
+    font-size: 24px;
+}
+
+@mixin h2{
+    font-size: 20px;
+}
 @mixin paragraphe{
     color: $white-opacity;
     font-size: 18px;
