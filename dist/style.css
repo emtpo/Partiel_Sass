@@ -78,6 +78,10 @@ body {
   border: none;
   box-shadow: 0px 0px 10px -1px #BD11FA;
 }
+.plans-button:hover, .all-button:hover {
+  background: linear-gradient(to right, #BD11FA, #46C2FF);
+  box-shadow: 0px 0px 10px -1px #46C2FF;
+}
 
 .start-button {
   border: solid 0.1em #ffffff;
