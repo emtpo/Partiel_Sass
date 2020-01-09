@@ -1,5 +1,5 @@
 body {
-  background-color: #21212E;
+  background-color: #353536;
   color: #ffffff;
   margin: 0;
   font-family: "Nunito", sans-serif;
@@ -21,6 +21,7 @@ body {
 
 .navigation {
   margin-top: 1%;
+  z-index: 1000;
 }
 
 .navigation a {
@@ -37,6 +38,43 @@ body {
   padding: 0.5em 1.5em 0.5em 1.5em;
   margin: 2em;
   background: none;
+}
+
+.Intro {
+  margin-right: 61em;
+  margin-left: 9em;
+  margin-top: 6em;
+}
+
+.Intro p {
+  color: #ffffff94;
+  font-size: 12px;
+}
+
+.Intro input {
+  color: #ffffff;
+  border-radius: 0.3em;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  font-size: 16px;
+}
+
+.plans-button {
+  background: linear-gradient(to right, #46C2FF, #BD11FA);
+  border: none;
+  box-shadow: 0px 0px 10px -1px #BD11FA;
+}
+
+.start-button {
+  border: solid 0.1em #ffffff;
+  background: none;
+}
+
+.mockup img {
+  width: 44vw;
+  position: absolute;
+  top: 2em;
+  right: 11em;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
