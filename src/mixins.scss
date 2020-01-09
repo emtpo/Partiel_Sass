@@ -5,7 +5,14 @@
 @mixin h2{
     font-size: 20px;
 }
+
 @mixin paragraphe{
     color: $white-opacity;
     font-size: 18px;
+}
+
+@mixin colorfulbutton{
+    background: linear-gradient(to right, $blue, $pink);
+    border: none;
+    box-shadow: 0px 0px 10px -1px $pink;
 }

@@ -66,14 +66,14 @@ body {
   font-size: 18px;
 }
 
-#button-intro, .start-button, .plans-button {
+#button-intro, .start-button, .plans-button, .all-button {
   color: #ffffff;
   border-radius: 0.3em;
   padding: 0.5em 1.5em 0.5em 1.5em;
   font-size: 16px;
 }
 
-.plans-button {
+.plans-button, .all-button {
   background: linear-gradient(to right, #46C2FF, #BD11FA);
   border: none;
   box-shadow: 0px 0px 10px -1px #BD11FA;
@@ -149,7 +149,66 @@ body {
 }
 
 .cest-trop-dur-Thomas {
-  width: 18em;
+  width: 15em;
+  margin-top: 13em;
+  float: right;
+}
+
+.info-part2 {
+  width: 34em;
+  margin-top: 40em;
+  margin-left: 7em;
+}
+
+.powerful-button {
+  color: #00EC98;
+  background-color: rgba(0, 236, 153, 0.356);
+  border: none;
+  padding: 0.7em 2em 0.7em 2em;
+}
+
+.info-part2 h1 {
+  font-size: 24px;
+}
+
+.info-part2 p {
+  color: #ffffff94;
+  font-size: 18px;
+}
+
+.colonnesabominables {
+  float: right;
+}
+
+#all-block {
+  background-color: #20202C;
+  box-shadow: 1px 2px 10px 2px #000000;
+  flex-direction: column;
+  padding: 3em 0em 0em 1em;
+}
+
+#firstcolumn {
+  top: 92em;
+  right: 25em;
+  position: absolute;
+}
+
+#secondcolumn {
+  position: absolute;
+  top: 100em;
+  right: 4em;
+}
+
+#all-block p {
+  color: #ffffff94;
+  font-size: 18px;
+  font-size: 14px;
+}
+
+.info-part3 {
+  padding-right: 80px;
+  width: 34em;
+  margin-top: 40em;
   float: right;
 }
 
