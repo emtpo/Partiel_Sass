@@ -1,0 +1,45 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+
+
+body{
+    background-color: #21212E;
+    color: $white;
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title{
+    position: absolute;
+    left: 6.6em;
+    font-size: 27px;
+}
+
+.navbar {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.navigation{
+    margin-top: 1%;
+}
+
+.navigation a{
+    color: #ffffff94;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 25px;
+}
+
+.contact-button{
+    color: #ffffff;
+    border: solid 0.1em #ffffff;
+    border-radius: 0.3em;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin: 2em;
+    background: none;
+}
